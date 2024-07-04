@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/liva-store/static/css/main.24a60337.css",
+    "main.js": "/liva-store/static/js/main.9517f198.js",
+    "static/js/453.bea66239.chunk.js": "/liva-store/static/js/453.bea66239.chunk.js",
+    "static/media/signup.jpg": "/liva-store/static/media/signup.6e9ae0e62e83352a2f8b.jpg",
+    "static/media/shipping.png": "/liva-store/static/media/shipping.4951e7a8d07571007340.png",
+    "static/media/fa-solid-900.ttf": "/liva-store/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
+    "static/media/slide-home3-3-516.jpg": "/liva-store/static/media/slide-home3-3-516.cd9fd0aa4b3a61f3cd89.jpg",
+    "static/media/slide-home3-1-55.jpg": "/liva-store/static/media/slide-home3-1-55.603fd9cc0a7fce0f61c4.jpg",
+    "static/media/fa-brands-400.ttf": "/liva-store/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
+    "static/media/productsadded.svg": "/liva-store/static/media/productsadded.e165b576067148295a509fe6e82c7c26.svg",
+    "static/media/fa-solid-900.woff2": "/liva-store/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
+    "static/media/fa-brands-400.woff2": "/liva-store/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
+    "static/media/about.jpeg": "/liva-store/static/media/about.90a59cf289d67dd0de7b.jpeg",
+    "static/media/fa-regular-400.ttf": "/liva-store/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/no-items-found-clolor.png": "/liva-store/static/media/no-items-found-clolor.8f166a10c0fe84d5bbe2.png",
+    "static/media/shopping.png": "/liva-store/static/media/shopping.924056403ca353960992.png",
+    "static/media/control1.jpg": "/liva-store/static/media/control1.ce909cd6d5afa6bc8d0b.jpg",
+    "static/media/fa-regular-400.woff2": "/liva-store/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
+    "static/media/control2.jpg": "/liva-store/static/media/control2.85a64f97e7a24d50013e.jpg",
+    "static/media/control3.jpg": "/liva-store/static/media/control3.961205b4b8833378b482.jpg",
+    "static/media/fa-v4compatibility.ttf": "/liva-store/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
+    "static/media/homebanner.webp": "/liva-store/static/media/homebanner.9c2f57172db02816d6a8.webp",
+    "static/media/logo.svg": "/liva-store/static/media/logo.a755502f6c4c9d072f73975fa9c139b6.svg",
+    "static/media/fa-v4compatibility.woff2": "/liva-store/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
+    "static/media/slick.svg": "/liva-store/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/liva-store/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/liva-store/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/liva-store/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/liva-store/index.html",
+    "main.24a60337.css.map": "/liva-store/static/css/main.24a60337.css.map",
+    "main.9517f198.js.map": "/liva-store/static/js/main.9517f198.js.map",
+    "453.bea66239.chunk.js.map": "/liva-store/static/js/453.bea66239.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24a60337.css",
+    "static/js/main.9517f198.js"
+  ]
+}
