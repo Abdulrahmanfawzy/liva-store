@@ -101,58 +101,60 @@ export default function ShippingAddress() {
   })
 
   return (
-    <div className='container my-4'>
-      <div className='row align-items-center'>
-          <div className="col-md-6">
-            <form onSubmit={formikAddress.handleSubmit} style={{boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px"}} className='w-100 mt-5 p-4 m-auto rounded-2'>
-              <h2 className='mb-4 h4 text-center'>Shipping Address</h2>
-            
-              {(addressFail)?
-              <div className='alert alert-danger'>{addressFail}</div>:""}
-              {(addressSuccess)?
-              <div className='alert alert-success'>{addressSuccess}</div>:""}
-            
-              <div className='mb-3'>
-                <div className='d-flex justify-content-between align-items-center'>
-                  <label htmlFor="details">Details:</label>
-                  <input style={{width: "85%" , color: "#acaaa6"}}  value={formikAddress.values.details} onChange={formikAddress.handleChange} onBlur={formikAddress.handleBlur} type="text" className='form-control rounded-0' name='details' id='details'/>
+    <div style={{marginTop: "100px"}}>
+      <div className='container my-4'>
+        <div className='row align-items-center'>
+            <div className="col-md-6">
+              <form onSubmit={formikAddress.handleSubmit} style={{boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px"}} className='w-100 mt-5 p-4 m-auto rounded-2'>
+                <h2 className='mb-4 h4 text-center'>Shipping Address</h2>
+              
+                {(addressFail)?
+                <div className='alert alert-danger'>{addressFail}</div>:""}
+                {(addressSuccess)?
+                <div className='alert alert-success'>{addressSuccess}</div>:""}
+              
+                <div className='mb-3'>
+                  <div className='d-flex justify-content-between align-items-center'>
+                    <label htmlFor="details">Details:</label>
+                    <input style={{width: "85%" , color: "#acaaa6"}}  value={formikAddress.values.details} onChange={formikAddress.handleChange} onBlur={formikAddress.handleBlur} type="text" className='form-control rounded-0' name='details' id='details'/>
+                  </div>
+                  {(formikAddress.errors.details && formikAddress.touched.details)
+                  ?<div style={{width: "85%", marginLeft: "auto"}} className='alert alert-danger p-2 mt-1'>{formikAddress.errors.details}</div>
+                  :""}
                 </div>
-                {(formikAddress.errors.details && formikAddress.touched.details)
-                ?<div style={{width: "85%", marginLeft: "auto"}} className='alert alert-danger p-2 mt-1'>{formikAddress.errors.details}</div>
-                :""}
-              </div>
-            
-            
-              <div className='mb-3'>
-                <div className='d-flex justify-content-between align-items-center'>
-                  <label htmlFor="phoneAddress">phone:</label>
-                  <input style={{width: "85%" , color: "#acaaa6"}}  value={formikAddress.values.phone} onChange={formikAddress.handleChange} onBlur={formikAddress.handleBlur} type="text" className='form-control rounded-0' name='phone' id='phoneAddress'/>
+              
+              
+                <div className='mb-3'>
+                  <div className='d-flex justify-content-between align-items-center'>
+                    <label htmlFor="phoneAddress">phone:</label>
+                    <input style={{width: "85%" , color: "#acaaa6"}}  value={formikAddress.values.phone} onChange={formikAddress.handleChange} onBlur={formikAddress.handleBlur} type="text" className='form-control rounded-0' name='phone' id='phoneAddress'/>
+                  </div>
+                  {(formikAddress.errors.phone && formikAddress.touched.phone)
+                  ?<div style={{width: "85%", marginLeft: "auto"}} className='alert alert-danger p-2 mt-1'>{formikAddress.errors.phone}</div>
+                  :""}
                 </div>
-                {(formikAddress.errors.phone && formikAddress.touched.phone)
-                ?<div style={{width: "85%", marginLeft: "auto"}} className='alert alert-danger p-2 mt-1'>{formikAddress.errors.phone}</div>
-                :""}
-              </div>
-            
-              <div className='mb-3'>
-                <div className='d-flex justify-content-between align-items-center'>
-                  <label htmlFor="cityAddress">city:</label>
-                  <input style={{width: "85%" , color: "#acaaa6"}}  value={formikAddress.values.city} onChange={formikAddress.handleChange} onBlur={formikAddress.handleBlur} type="text" className='form-control rounded-0' name='city' id='cityAddress'/>
+              
+                <div className='mb-3'>
+                  <div className='d-flex justify-content-between align-items-center'>
+                    <label htmlFor="cityAddress">city:</label>
+                    <input style={{width: "85%" , color: "#acaaa6"}}  value={formikAddress.values.city} onChange={formikAddress.handleChange} onBlur={formikAddress.handleBlur} type="text" className='form-control rounded-0' name='city' id='cityAddress'/>
+                  </div>
+                  {(formikAddress.errors.city && formikAddress.touched.city)
+                  ?<div style={{width: "85%", marginLeft: "auto"}} className='alert alert-danger p-2 mt-1'>{formikAddress.errors.city}</div>
+                  :""}
                 </div>
-                {(formikAddress.errors.city && formikAddress.touched.city)
-                ?<div style={{width: "85%", marginLeft: "auto"}} className='alert alert-danger p-2 mt-1'>{formikAddress.errors.city}</div>
-                :""}
-              </div>
-
-              <button style={{background:"#845EF2"}} disabled={(formikAddress.isValid && formikAddress.dirty) ?false : true} type='submit' className='btn text-white w-100 mt-3'>
-                {loadingAddress
-                ? <Loading color="#fff"/>
-                :"Submit"}
-              </button>
-            </form>
-          </div>
-          <div className="col-md-6">
-            <img className='w-100 d-block' src={require("../../assets/imgs/shipping.png")} alt="" />
-          </div>
+      
+                <button style={{background:"#845EF2"}} disabled={(formikAddress.isValid && formikAddress.dirty) ?false : true} type='submit' className='btn text-white w-100 mt-3'>
+                  {loadingAddress
+                  ? <Loading color="#fff"/>
+                  :"Submit"}
+                </button>
+              </form>
+            </div>
+            <div className="col-md-6">
+              <img className='w-100 d-block' src={require("../../assets/imgs/shipping.png")} alt="" />
+            </div>
+        </div>
       </div>
     </div>
   )
