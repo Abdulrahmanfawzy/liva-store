@@ -1,0 +1,23 @@
+.cartBag{
+    position: absolute;
+    top: -13px;
+    left: 0px;
+    width: 20px;
+    padding-left: 1px;
+    height: 20px;
+    background: #F7931E;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 13px;
+    font-weight: 600;
+    color: #FFF;
+}
+.navActive{
+    background: #FFF;
+    transition: .3s ease-in-out;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.activeLink{
+    color: var(--main-color)!important;
+}
