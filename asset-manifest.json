@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/liva-store/static/css/main.24a60337.css",
-    "main.js": "/liva-store/static/js/main.3d284772.js",
-    "static/js/453.bea66239.chunk.js": "/liva-store/static/js/453.bea66239.chunk.js",
+    "main.js": "/liva-store/static/js/main.b099c826.js",
+    "static/js/453.59706a29.chunk.js": "/liva-store/static/js/453.59706a29.chunk.js",
     "static/media/signup.jpg": "/liva-store/static/media/signup.6e9ae0e62e83352a2f8b.jpg",
     "static/media/shipping.png": "/liva-store/static/media/shipping.4951e7a8d07571007340.png",
     "static/media/fa-solid-900.ttf": "/liva-store/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
@@ -30,11 +30,11 @@
     "static/media/slick.woff": "/liva-store/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/liva-store/index.html",
     "main.24a60337.css.map": "/liva-store/static/css/main.24a60337.css.map",
-    "main.3d284772.js.map": "/liva-store/static/js/main.3d284772.js.map",
-    "453.bea66239.chunk.js.map": "/liva-store/static/js/453.bea66239.chunk.js.map"
+    "main.b099c826.js.map": "/liva-store/static/js/main.b099c826.js.map",
+    "453.59706a29.chunk.js.map": "/liva-store/static/js/453.59706a29.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.24a60337.css",
-    "static/js/main.3d284772.js"
+    "static/js/main.b099c826.js"
   ]
 }
