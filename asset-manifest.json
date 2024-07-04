@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/liva-store/static/css/main.24a60337.css",
-    "main.js": "/liva-store/static/js/main.f1cdf494.js",
+    "main.js": "/liva-store/static/js/main.c06fd4f0.js",
     "static/js/453.59706a29.chunk.js": "/liva-store/static/js/453.59706a29.chunk.js",
     "static/media/signup.jpg": "/liva-store/static/media/signup.6e9ae0e62e83352a2f8b.jpg",
     "static/media/shipping.png": "/liva-store/static/media/shipping.4951e7a8d07571007340.png",
@@ -30,11 +30,11 @@
     "static/media/slick.woff": "/liva-store/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/liva-store/index.html",
     "main.24a60337.css.map": "/liva-store/static/css/main.24a60337.css.map",
-    "main.f1cdf494.js.map": "/liva-store/static/js/main.f1cdf494.js.map",
+    "main.c06fd4f0.js.map": "/liva-store/static/js/main.c06fd4f0.js.map",
     "453.59706a29.chunk.js.map": "/liva-store/static/js/453.59706a29.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.24a60337.css",
-    "static/js/main.f1cdf494.js"
+    "static/js/main.c06fd4f0.js"
   ]
 }
